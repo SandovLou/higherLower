@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Higher Lower</title>
+        <script src="higher_lower_final.js" defer></script>
+        <link href="style_higher_lower.css" rel="stylesheet"/>
+    </head>
+    
+    <body class="containerA">
+            <div class="containerB">
+                <h1>Higher - Lower</h1>
+                <p id="firstmessage"></p>
+                <form>
+                    <div>
+                        <label for="userInputNumber" type="text" name="labelGuess">Your Guess:</label>
+                        <input type="text" id="userInputNumber" name="guess" placeholder="decimals are rounded">
+                    </div>
+                    <button id="submitGuess" type="button" onclick="initiate()" name="guessButton">Guess</button>
+                </form>
+                <p id="message"></p>
+            </div>
+    </body>
+
+</html>

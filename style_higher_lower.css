@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+.containerA {
+    background: linear-gradient(rgba(0, 65, 130, .9), rgba(255, 75, 104, .65), rgba(251, 255, 163, .75));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.containerB {
+    background-color: rgba(255, 255, 255, .75);
+    text-align: center;
+    border: 5px solid rgb(0,0,0);
+    width: 25%;
+    height: 35%;
+
+}
+
+button {
+    margin-top: 4px;
+}
